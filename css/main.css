@@ -1,0 +1,82 @@
+.todolist {
+  /*background: #090202;*/
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+
+body {
+}
+
+.todolist ul li {
+  list-style: none;
+  font-size: 20px;
+  color: black;
+  margin-top: 10px;
+  /*color: white;*/
+  z-index: 1;
+}
+
+.todolist ul {
+  padding: 0px;
+}
+.todolist input{
+  width: 45%;
+  margin-bottom: 20px;
+}
+.todolist button {
+}
+
+.todolist {
+  position: relative;
+}
+
+.todoChild {
+  position: relative;
+}
+
+.todoChild i {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font-size: 23px;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  padding-top: 13px;
+  cursor: pointer;
+  z-index: 2;
+}
+.todoChild i:hover{
+  background: red;
+  /*color: white;*/
+}
+
+.todoChild1{
+  margin-bottom: 10px;
+}
+.todoChild1:hover {
+  background: #ddd;
+  color: black;
+  border-radius: 15px;
+}
+.todolist input::placeholder {
+  font-size: 16px;
+}
+
+.contactList {position: relative;}
+
+
+li.secondChild {
+  position: absolute;
+  top: -10px;
+  left: 32%;
+}
+
+table.contactList.table tr th div {
+  /*color: #fff;*/
+}
+
+table.contactList.table {
+  margin-top: 20px;
+}
